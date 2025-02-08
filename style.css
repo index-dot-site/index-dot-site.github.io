@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(255, 235, 215);
+}
+
+div.spacer{
+    height:60px;
+}
+
+div.bgDark{
+    background-color: rgb(230, 235, 235);
+}
+
+div.bgLight{
+    background-color: rgb(240, 240, 230);
+}
+
+nav{
+    background-color: rgb(230, 240, 250);
+}
