@@ -7,6 +7,7 @@ div.spacer{
 }
 
 div.paragraph{
+    border-style: double;
     border: 5px;
 }
 
