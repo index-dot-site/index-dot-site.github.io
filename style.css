@@ -7,7 +7,8 @@ div.spacer{
 }
 
 div.paragraph{
-    border-style: double;
+    /*Sources: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table3,https://www.w3schools.com/css/css_border.asp */
+    border-style: 5px double black;
     border: 5px;
 }
 
