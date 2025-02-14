@@ -1,4 +1,14 @@
+window.close;
 import { SOLUTION_WORDS, ALLOWED_WORDS } from "./WORDLIST.js";
+
+function isValueInVar(value, container) {
+    for (let n = 0; n <= container.length; n++){
+        if (value == container[n]){
+            return true;
+        }
+    }
+    return false;
+}
 
 function convertWordToArray(word) {
     let wordAsArray = [];
@@ -40,3 +50,11 @@ function checkPlacementOfLetter(word1, word2, pos){
 }
 
 const ANSWER = convertWordToArray(SOLUTION_WORDS[floor(Math.random() * SOLUTION_WORDS.length)]);
+let guess = undefined;
+// This is the actual game.
+for (let remaining = 6; remaining > 0; remaining--){
+    guess = prompt('Make your guess.');
+    if (isValueInVar(guess, ALLOWED_WORDS)){
+
+    }
+}
