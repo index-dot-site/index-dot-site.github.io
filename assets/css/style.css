@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: cursive;
+    background: linear-gradient(lightyellow, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.spacer{
+    height:60px;
+}
+
+div.paragraph{
+    /*Sources: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table3,https://www.w3schools.com/css/css_border.asp */
+    border-style: 5px double black;
+    border: 5px;
+}
+
+.post{
+    background-color: lightgrey;
+    border-radius: 15px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.post:hover{
+    transform: scale(1.1, 1.1);
+    transform: rotateZ(10deg);
+    box-shadow: 5px 5px 3px darkgray;
+    background-color: white;
+}
+
+.post-link{
+    text-decoration-line:none;
+    color: black;
+}
+
+.nav-link:hover{
+    /*Sources: https://stackoverflow.com/questions/34520212/bootstrap-conflicts-with-my-own-css-file https://www.w3schools.com/css/css_important.asp */
+    color: black !important;
+    background-color: white;
+    box-shadow: 4px 4px 0px grey;
+}
+
+.seq-suffix{
+    /* This is for endings of numbers like 1st, 2nd, 3rd, 4th */
+    font-size:12px;
+}
+
+#blog-divider{
+    border-width: 5px;
+    border: double;
+}
+
+#post-list{
+    list-style-type: none;
+}
+
+#ids-banner{
+    display: none;
+}

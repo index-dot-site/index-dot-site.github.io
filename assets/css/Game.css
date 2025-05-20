@@ -1,0 +1,15 @@
+body{
+    background-color: greenyellow;
+}
+
+#bank-balance {
+    display:none;
+}
+
+#stock-menu{
+    background-color:lightyellow;
+}
+
+#stats-display {
+    background-color: lightgrey;
+}
